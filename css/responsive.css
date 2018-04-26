@@ -1,0 +1,371 @@
+/* =============================================================================
+           Small Screen - Tablate/Others
+ ============================================================================= */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+		
+.header-nav ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 40px 0px 0px 10px;
+}
+.header-nav ul li img {
+    width: 250px;
+    margin-top: -60px;
+}
+.header-nav ul li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-top: 200px;
+}	
+.header-bottom {  
+    padding: 0px 0px 15px 0px;
+}
+.cheeseonion {   
+    padding: 40px 0px;
+}
+.cheeseonion-left {
+    margin-top: 80px;
+}	
+.smokeybbq {   
+    padding: 40px 0px;
+}
+.smokeybbq-left {
+    margin-top: 80px;
+}
+.spicywasabi {   
+    padding: 40px 0px;
+}
+.spicywasabi-left {
+    margin-top: 80px;
+}
+.about-header-meddle ul li a {  
+    padding: 0px 5px;
+}
+.js #nav { display: none; }
+.js .selectnav { display: block;}
+
+
+}
+
+/* =============================================================================
+            Xtra Small Screen - Tablate
+ ============================================================================= */
+@media screen and (min-width: 580px) and (max-width: 767px) {	
+
+.header-nav ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 40px 0px 0px 10px;
+}
+.header-nav ul li img {
+    width: 120px;
+    margin-top: -40px;
+}
+.header-nav ul li a {
+    text-decoration: none;
+    padding: 10px 10px;
+    margin-top: 200px;
+}
+.full-slider .prev {
+    left: -30px;    
+}
+.full-slider .next {
+    right: -30px;
+}
+.header-bottom-right form {
+    margin-top: 15px;
+    margin-right: 10px; 
+}
+.header-bottom-right form input {
+	margin-bottom: 15px;
+}
+.header-bottom-right form [type="text"] {
+    background: #fff;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    width: 99%;
+    color: #999;
+    margin-right: 0px;
+    display: block;
+}
+.header-bottom-right form [type="email"] {
+	  background: #fff;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    width: 99%;
+    color: #999;
+    margin-right: 0px;
+    display: block;   
+}
+.header-bottom-right form [type="submit"] {  
+     margin-left: 0px;
+}
+.header-bottom {  
+    padding: 0px 0px 10px 0px;
+}
+.propernut-right {
+    margin-bottom: 30px;
+} 
+.propernut {  
+    padding: 30px 0px 15px 0px;
+}
+.cheeseonion-right {
+    margin-top: 20px;
+}
+.cheeseonion {  
+    padding: 30px 0px;
+}
+.cheeseonion-left {
+    margin-top: 20px;
+}
+.smokeybbq {
+    padding: 30px 0px;
+}
+.smokeybbq-left {
+    margin-top: 20px;
+}
+.spicywasabi {   
+    padding: 30px 0px;
+}
+.spicywasabi-left {
+    margin-top: 20px;
+}
+.spicywasabi-right {
+    margin-top: 20px;
+}
+.footer-part-4 ul {
+      float: none;
+}
+.footer-part,
+.footer-part-4 {
+    margin-bottom: 15px;
+}
+.footer-bottom {  
+    padding: 10px 0px;
+}
+.js #nav { display: none; }
+.js .selectnav { display: block;}
+.contact-header-meddle {
+    padding: 15px 0px;
+}
+.contact-header-right ul {
+    float: none;
+}
+.contact-wrapper {  
+    padding: 15px 0px;
+}
+.contact-logo {
+    padding: 20px 0px 15px 0px;
+}
+.contact-contact-part > p:first-child {
+    margin-bottom: 20px;
+}
+.contact-contact-part p {
+    line-height: initial;
+}
+.ournuts-wrapper {  
+    padding: 15px 0px; 
+}
+
+}
+/* =============================================================================
+            Xtra Small Screen - Mobile Phone
+ ============================================================================= */
+@media screen and (max-width: 579px) {
+
+
+.header-top-left span {
+   text-align: center;
+   margin-bottom: 20px;
+   display: inline-block;
+}
+.header-top-right ul {   
+    float: none;
+}
+.header-nav ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 15px 0px 0px 0px;
+}
+.header-nav ul li img {
+    margin-top: 0px;
+}
+.header-nav ul li a {
+    text-decoration: none;
+    padding: 10px 2px;
+    margin-top: 20px;
+    font-size: 11px;
+}
+.full-slider .prev, 
+.full-slider .next {
+    display: none;    
+} 
+.content-area {  
+    margin-top: 30px;
+}
+.header-bottom-left:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-left: 10px solid #FEC524;
+    border-right: 10px solid transparent;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    top: 0;
+    right: -20px;
+    width: 0px;
+    height: 100%;
+}
+.header-bottom-right form {
+    margin-top: 15px;
+    margin-right: 10px; 
+}
+.header-bottom-right form input {
+	margin-bottom: 15px;
+}
+.header-bottom-right form [type="text"] {
+    background: #fff;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    width: 100%;
+    color: #999;
+    margin-right: 0px;
+    display: block;
+}
+.header-bottom-right form [type="email"] {
+	  background: #fff;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    width: 100%;
+    color: #999;
+    margin-right: 0px;
+    display: block;    
+}
+.header-bottom-right form [type="submit"] {  
+     margin-left: 0px;
+ }
+.header-bottom { 
+    padding: 0px 0px 10px 0px;
+}
+.propernut-right {
+    margin-bottom: 30px;
+} 
+.propernut {  
+    padding: 30px 0px 15px 0px;
+}
+.cheeseonion-right {
+    margin-top: 20px;
+}
+.cheeseonion {  
+    padding: 30px 0px;
+}
+.cheeseonion-left {
+    margin-top: 20px;
+}
+.smokeybbq {  
+    padding: 30px 0px;
+}
+.smokeybbq-right {
+    margin-top: 20px;
+}
+.spicywasabi {   
+    padding: 30px 0px;
+}
+.spicywasabi-left {
+    margin-top: 20px;
+}
+.spicywasabi-right {
+    margin-top: 20px;
+}
+.footer-part-4 ul {  
+    float: none;
+}
+.footer-part,
+.footer-part-4 {
+    margin-bottom: 15px;
+}
+.footer-bottom {  
+    padding: 10px 0px;
+}
+.js #nav { display: none; }
+.js .selectnav { display: block;}
+.contact-header-meddle {
+    padding: 15px 0px;
+}
+.contact-header-right ul {
+    float: none;
+}
+.contact-wrapper {  
+    padding: 15px 0px;
+}
+.contact-logo {
+    padding: 20px 0px 15px 0px;
+}
+.contact-contact-part > p:first-child {
+    margin-bottom: 20px;
+}
+.contact-contact-part p {
+    line-height: initial;
+}
+.ournuts-wrapper {  
+    padding: 15px 0px; 
+}
+.header-nav ul li {
+	display: block;
+}
+#nav\ logo {
+	position: inherit;
+	
+}
+#nav\ right {
+	position: inherit;
+	margin: 0;
+}
+#nav\ left {
+	position: inherit;
+	margin: 0;
+}
+.header-nav ul li a {
+	font-size: 19px;
+}
+.main-menu ul{
+	margin: 0 !important;
+	padding: 0  !important;
+}
+.main-menu ul li{
+	padding: 5px 0;
+}
+.header-nav.text-center {
+	padding: 0 0;
+}
+.header-top-left {
+	text-align: center;
+}
+.header-top-right ul {
+	text-align: center;
+}
+.contact-header-meddle ul{
+	float: none;
+	display: block;
+}
+.contact-header-meddle ul li {
+	float: none;
+	padding: 5px 0;
+}
+.contact-header-meddle ul li a{
+	font-size: 19px;
+}
+.contact-header-right ul {
+	float: none;
+	text-align: center;
+}
+.contact-header-right ul li {
+	float: none;
+	margin-left: 8px;
+	display: inline-block;
+}
+}
